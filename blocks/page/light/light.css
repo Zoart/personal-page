@@ -1,0 +1,13 @@
+.light {
+  margin: 0;
+  padding: 0;
+  width: 90px;
+  height: 35px;
+  background-color: rgb(251, 255, 0);
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  font-weight: normal;
+  font-size: 20px;
+  border-radius: 45%;
+}

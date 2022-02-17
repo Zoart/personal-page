@@ -1,0 +1,20 @@
+.projects {
+  margin: 80px auto 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1920px) {
+  .projects {
+    margin: 45px auto 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+}

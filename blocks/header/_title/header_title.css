@@ -1,0 +1,15 @@
+.header_title {
+  margin: 40px 0 50px;
+  padding: 0;
+  text-align : left;
+  font-weight: bolder;
+  font-size: 64px;
+}
+
+
+@media screen and (max-width: 1920px) {
+  .header_title {
+    margin: 20px 0 150px 20px;
+    font-size: 50px;
+  }
+}

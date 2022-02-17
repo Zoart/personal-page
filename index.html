@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Page</title>
+  <link rel="stylesheet" href = "../style/index.css">
+</head>
+<body class="page white-theme">
+  <button class="light image_scale">Свет</button>
+  <section class="header">
+    <h1 class="header_title">Созданые проекты</h1>
+  </section>
+  <section class="projects">
+    <ul class="cards">
+      <li class="cards__item">
+        <a class="cards__links" href="https://zoart.github.io/first-project/">
+        <img class="cards__image image_scale-rotate" src="./images/first-project.png" alt="Научиться учиться">
+        </a>
+        <h3 class="cards__title">Научиться учиться</h3>
+        <p class="cards__description">Первый созданный проект при обучении в Яндекс-Практикуме. Это простая страница, которая
+          написана с использованием HTML и CSS.
+        </p>
+        <button class="cards__githab">
+          <a class="githab_links" href="https://github.com/Zoart/first-project">
+            Код проекта на <span class="gitab_text">github</span>.
+        </a>
+      </button>
+      </li>
+      <li class="cards__item">
+        <a class="cards__links" href="https://zoart.github.io/how-to-learn/">
+        <img class="cards__image image_animated image_scale" src="./images/site-noanimation.jpg" alt="Научиться учиться2"
+        onmouseover="this.src='./images/site-gif.gif'" onmouseleave="this.src='./images/site-noanimation.jpg'">
+        </a>
+        <h3 class="cards__title">Научиться учиться (БЭМ) </h3>
+        <p class="cards__description">Проект представляет собой сайт, созданный с помощью HTML и CSS.
+           Применяются эффекты аннимации. Используется файловая структура Nested (по БЭМ).
+        </p>
+        <button class="cards__githab">
+          <a class="githab_links" href="https://github.com/Zoart/how-to-learn">
+            Код проекта на <span class="gitab_text">github</span>.
+        </a>
+      </button>
+      </li>
+      <li class="cards__item">
+        <a class="cards__links" href="https://zoart.github.io/russian-travel/">
+        <img class="cards__image image_animated image_blue-border image_scale" src="./images/russian_travel.png" alt="Путешествия по Росии"
+        onmouseover="this.src='./images/russian_travel.gif'" onmouseleave="this.src='./images/russian_travel.png'">
+        </a>
+        <h3 class="cards__title">Путешествия по России</h3>
+        <p class="cards__description">
+          В третьем проекте применяется CSS Grid Layout и адаптивная верстка
+        </p>
+        <button class="cards__githab">
+          <a class="githab_links"
+          href="https://github.com/Zoart/russian-travel">Код проекта на <span class="gitab_text">github</span>.
+        </a>
+      </button>
+      </li>
+    </ul>
+  </section>
+  <section class="about">
+    <h3 class="about__title">Обо мне:</h3>
+    <p class="about__text">
+      &nbsp;&nbsp;&nbsp;&nbsp;Меня зовут Олег, я увлекаюсь созданием сайтов с помощью различных
+       языков и фреймворков. В данный момент я использую HTML, CSS и JS. Сейчас мне интересно
+       освоить фреймворки языка python: Django и Flask. Помимо сайтов мне интересна разработка
+        десктопных приложений, для чего я использую python из-за его удобства, красоты
+        и лаконичности. Примеры этих проектов можно посмотреть на моем <a class="text_link"
+       href="https://github.com/Zoart">github</a> аккаунте. Кроме python использовал C++
+      и Java. Я также заинтересован в дальнейшем изучении этих языков по причине незаменимости
+      в сферах их применения.
+    </p>
+    <p class="about__text">
+      &nbsp;&nbsp;&nbsp;&nbsp;В планах устроится на работу и погрузиться в реальный проект, в настоящее время,
+      за последние полтора года увлечения программированием, я понял, что это то занятие,
+      которому я хочу уделять свое время.
+    </p>
+  </section>
+  <section class="footer">
+
+  </section>
+  <script src="./script/script.js"></script>
+</body>
+</html>
