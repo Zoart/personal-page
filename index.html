@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Page</title>
   <link rel="stylesheet" href = "./style/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href = "./style/index.css">
 </head>
-<body class="page white-theme">
-  <button class="light image_scale">Свет</button>
+<body class="page white-theme" id="page">
+  <button class="light image_scale" id="light"></button>
   <section class="header">
     <h1 class="header_title">Созданые проекты</h1>
   </section>
@@ -23,9 +24,9 @@
         <p class="cards__description">Первый созданный проект при обучении в Яндекс-Практикуме. Это простая страница, которая
           написана с использованием HTML и CSS.
         </p>
-        <button class="cards__githab">
-          <a class="githab_links" href="https://github.com/Zoart/first-project">
-            Код проекта на <span class="gitab_text">github</span>.
+        <button class="cards__github">
+          <a class="github_links" href="https://github.com/Zoart/first-project">
+            Код проекта на <span class="github_text">github</span>.
         </a>
       </button>
       </li>
@@ -38,9 +39,9 @@
         <p class="cards__description">Проект представляет собой сайт, созданный с помощью HTML и CSS.
            Применяются эффекты аннимации. Используется файловая структура Nested (по БЭМ).
         </p>
-        <button class="cards__githab">
-          <a class="githab_links" href="https://github.com/Zoart/how-to-learn">
-            Код проекта на <span class="gitab_text">github</span>.
+        <button class="cards__github">
+          <a class="github_links" href="https://github.com/Zoart/how-to-learn">
+            Код проекта на <span class="github_text">github</span>.
         </a>
       </button>
       </li>
@@ -53,8 +54,8 @@
         <p class="cards__description">
           В третьем проекте применяется CSS Grid Layout и адаптивная верстка
         </p>
-        <button class="cards__githab">
-          <a class="githab_links"
+        <button class="cards__github">
+          <a class="github_links"
           href="https://github.com/Zoart/russian-travel">Код проекта на <span class="gitab_text">github</span>.
         </a>
       </button>

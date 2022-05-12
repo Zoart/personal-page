@@ -20,9 +20,9 @@
 @import url(../blocks/projects/cards/__image/_blue-border/image_blue-border.css);
 @import url(../blocks/projects/cards/__image/_scale/image_scale.css);
 @import url(../blocks/projects/cards/__links/cards__links.css);
-@import url(../blocks/projects/cards/__githab/cards__githab.css);
-@import url(../blocks/projects/cards/__githab/_links/githab_links.css);
-@import url(../blocks/projects/cards/__githab/_text/gitab_text.css);
+@import url(../blocks/projects/cards/__github/cards__github.css);
+@import url(../blocks/projects/cards/__github/_links/github_links.css);
+@import url(../blocks/projects/cards/__github/_text/github_text.css);
 
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__title/about__title.css);
