@@ -1,8 +1,6 @@
 .projects {
   width: 85%;
-  max-height: 70%;
   margin: 40px auto 20px;
   padding: 0px;
-  overflow: auto;
 }
 
