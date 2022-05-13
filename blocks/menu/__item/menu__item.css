@@ -1,0 +1,10 @@
+.menu__item {
+  margin: 0 70px 0 0;
+  width: max-content;
+  height: 40px;
+  list-style-type: none;
+}
+
+.menu__item:nth-child(1) {
+  width: 45px;
+}

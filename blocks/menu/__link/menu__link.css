@@ -1,0 +1,14 @@
+.menu__link {
+  margin: 0;
+  padding: 0;
+  font-weight: 620;
+  letter-spacing: 3px;
+  font-size: 24px;
+  text-align: none;
+  color: black;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: rgb(16, 225, 16);
+}

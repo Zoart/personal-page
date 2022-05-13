@@ -4,9 +4,9 @@
   font-size: 24px;
   font-weight: 450;
   line-height: normal;
-  transition: .7s;
+  transition: .3s;
 }
 
 .github_links:hover {
-  color: black;
+  color: white;
 }

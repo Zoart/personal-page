@@ -4,9 +4,6 @@
 @import url(../blocks/menu/__image/menu__image.css);
 @import url(../blocks/menu/__open/menu__open.css);
 @import url(../blocks/menu/__item/menu__item.css);
-@import url(../blocks/menu/__link/menu__link.css);
-@import url(../blocks/menu/__bar/menu__bar.css);
-@import url(../blocks/menu/__button/menu__button.css);
 
 @import url(../blocks/page/dark-theme/dark-theme.css);
 @import url(../blocks/page/white-theme/white-theme.css);
