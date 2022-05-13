@@ -10,6 +10,7 @@
   border: 3px solid black;
   border-radius: 30px;
   box-sizing: content-box;
+  background-color: white;
 }
 
 .cards__github:hover {
