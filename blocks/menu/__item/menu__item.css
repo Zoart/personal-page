@@ -3,8 +3,13 @@
   width: max-content;
   height: 40px;
   list-style-type: none;
+  transition: .5s;
 }
 
 .menu__item:nth-child(1) {
   width: 45px;
+}
+
+.menu__item:hover {
+  transform: scale(1.10);
 }
