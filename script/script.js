@@ -1,66 +1,28 @@
-const page = document.getElementById("page");
-const themeButton = document.getElementById("light");
-let cards_github = document.getElementsByClassName('cards__githab');
-const projects_button = document.querySelector('.projects-button');
-const menu_image = document.querySelector('.menu__image');
-let menu_link = document.getElementsByClassName('menu__link');
+let item_show = document.getElementsByClassName('item__show');
+let iframe = document.getElementsByClassName('cards_iframe');
+
+let btn_show = document.getElementsByClassName('buttons__show');
+let btn_hide = document.getElementsByClassName('buttons__hide');
+
+let git_btn = document.getElementsByClassName('cards__github');
+
+let aye = document.getElementsByClassName('bi-caret-down');
 
 
+for (let i = 0; i < btn_show.length; i++)
+{
+  btn_show[i].addEventListener('click', () => {
+    document.getElementById(i + 1).style.display = 'inline';
+    btn_hide[i].style.display = 'inline';
+    btn_show[i].style.display = 'none';
+    git_btn[i].style.display = 'inline';
+  });
+  btn_hide[i].addEventListener('click', () => {
+    document.getElementById(i + 1).style.display = 'none';
+    btn_hide[i].style.display = 'none';
+    btn_show[i].style.display = 'inline';
+    git_btn[i].style.display = 'none';
+  });
+}
 
-themeButton.addEventListener('click', () => {
-  let class_list = page.classList
-  if (class_list.contains('white-theme'))
-  {
-    class_list.replace('white-theme', 'dark-theme');
-
-    themeButton.style.boxShadow = "0 -6px 9px white, 0 6px 9px white, 6px 0 9px white, -6px 0 9px white"
-    themeButton.style.backgroundColor = 'white';
-
-    // menu
-    menu_image.style.color = 'white';
-    menu_image.style.backgroundColor = 'rgb(34, 31, 31)';
-    for (let i = 0; i < menu_link.length; i++)
-    {
-      menu_link[i].style.color = 'white';
-    }
-
-    // project button
-    if (projects_button) {
-      projects_button.style.backgroundColor = 'white';
-      projects_button.style.color = 'black';
-      projects_button.style.boxShadow = '0 0 10px 3px white';
-    }
-    for (let i = 0; i<cards_github.length; i++)
-    {
-     cards_github.style.backgroundColor = 'white';
-    }
-  }
-  else
-  {
-    class_list.replace('dark-theme', 'white-theme');
-
-    themeButton.style.boxShadow = "0 -6px 9px black, 0 6px 9px black, 6px 0 9px black, -6px 0 9px black"
-    themeButton.style.backgroundColor = 'black';
-
-    // menu
-    menu_image.style.color = 'black';
-    menu_image.style.backgroundColor = 'white';
-    for (let i = 0; i < menu_link.length; i++)
-    {
-      menu_link[i].style.color = 'black';
-    }
-
-    // project button
-    if (projects_button) {
-      projects_button.style.backgroundColor = 'black';
-      projects_button.style.color = 'white';
-      projects_button.style.boxShadow = '0 0 10px 3px black';
-    }
-
-    for (let i = 0; i<cards_github.length; i++)
-    {
-     cards_github[i].style.backgroundColor = 'black';
-    }
-  }
-})
 

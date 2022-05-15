@@ -5,3 +5,9 @@
   border: none;
   background-color: white;
 }
+
+
+
+.menu__button:hover {
+  color: rgb(16, 236, 16);
+}

@@ -1,0 +1,6 @@
+.buttons__hide {
+  border: none;
+  height: min-content;
+  background-color: white;
+  display: none;
+}

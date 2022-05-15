@@ -1,16 +1,14 @@
 .cards__github {
   margin: 20px 0 20px;
-  padding: 7px;
+  padding: 3px 5px 5px;
   width: max-content;
   height: 45px;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: normal;
   transition: .5s;
   border: 3px solid black;
   border-radius: 30px;
-  box-sizing: content-box;
+  box-sizing: border-box;
   background-color: white;
+  display: none;
 }
 
 .cards__github:hover {

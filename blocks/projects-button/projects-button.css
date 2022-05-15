@@ -13,11 +13,9 @@
   box-sizing: content-box;
   transition: .7s;
   box-shadow: 0 0 10px 3px black;
-  background-color: black;
-  color: white;
 }
 
 .projects-button:hover {
-  color: rgb(16, 225, 16);
-  transform: scale(1.2);
+  color: rgb(16, 236, 16);
+  transform: scale(1.05);
 }
