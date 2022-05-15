@@ -9,6 +9,7 @@
   box-sizing: border-box;
   background-color: white;
   display: none;
+  align-self: center;
 }
 
 .cards__github:hover {
