@@ -1,0 +1,6 @@
+.project-card__iframe
+{
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 2em .3em rgba(100, 100, 100, 0.199);
+}

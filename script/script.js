@@ -18,6 +18,8 @@ for (let i = 0; i < close_project.length; i++)
   {
     projec_card[i].style.display = 'none';
     sheet.style.display = 'block';
+    menu.style.display = 'inline';
+
   })
 }
 
@@ -26,6 +28,7 @@ for (let i = 0; i < projects_id.length; i++)
     let project_card_id = document.getElementById(projects_id[i]);
     cards_btn[i].addEventListener('click', () =>
     {
+      menu.style.display = 'none';
       project_card_id.style.display = 'flex';
       sheet.style.display = 'none';
     })

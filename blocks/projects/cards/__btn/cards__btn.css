@@ -5,11 +5,14 @@
   height: 6em;
   overflow: auto;
   font-size: 1.5em;
-  font-weight: 550;
-  border: 0.1em solid black;
+  font-weight: 600;
+  border: 0.12em solid black;
+  letter-spacing: 0.2em;
   transition: 0.6s;
 }
 
 .cards__btn:hover {
-  transform: scale(1.15);
+  transform: scale(1.07);
+  border: none;
+  box-shadow: 0 0 1em .3em rgb(245, 255, 104);
 }

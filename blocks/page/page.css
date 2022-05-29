@@ -5,7 +5,6 @@
   display: flex;
   flex-direction: column;
   font-family: 'Piazzolla', serif;
-  color: rgb(179, 23, 23);
 }
 
 .bi-caret-down,  .bi-caret-up{
@@ -30,5 +29,5 @@
 }
 
 .menu__image_abs:hover {
-  color: rgb(16, 236, 16);
+  color: rgb(221, 237, 1);
 }

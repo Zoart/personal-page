@@ -28,6 +28,7 @@
 @import url(../blocks/project-card/__title/project-card__title.css);
 @import url(../blocks/project-card/__github/project-card__github.css);
 @import url(../blocks/project-card/__close/project-card__close.css);
+@import url(../blocks/project-card/__iframe/project-card__iframe.css);
 
 @import url(../blocks/projects/cards/__image/cards__image.css);
 @import url(../blocks/projects/__buttons/projects__buttons.css);
