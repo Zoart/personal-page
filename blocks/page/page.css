@@ -4,6 +4,8 @@
   padding: 0;
   display: flex;
   flex-direction: column;
+  font-family: 'Piazzolla', serif;
+  color: rgb(179, 23, 23);
 }
 
 .bi-caret-down,  .bi-caret-up{

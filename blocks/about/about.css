@@ -1,9 +1,8 @@
 .about {
-  width: 95%;
-  margin: 70px auto 0;
+  margin: 2.5em 2.5em .7em 5em;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }

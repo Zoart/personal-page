@@ -1,0 +1,10 @@
+.project-card__description {
+  margin: 0.5em 0 0;
+  padding: 0;
+  width: 80%;
+  font-size: 1.4em;
+  letter-spacing: 0.12em;
+  font-weight: normal;
+  text-align: center;
+  color: black;
+}

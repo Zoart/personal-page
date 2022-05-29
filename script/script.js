@@ -1,28 +1,34 @@
 let item_show = document.getElementsByClassName('item__show');
 let iframe = document.getElementsByClassName('cards_iframe');
 
-let btn_show = document.getElementsByClassName('buttons__show');
-let btn_hide = document.getElementsByClassName('buttons__hide');
+const projects_id = ['Notes', 'Calculator', 'How to learn',
+"How to learn (BEM)", "Russian travel", ]
 
 let git_btn = document.getElementsByClassName('cards__github');
 
-let aye = document.getElementsByClassName('bi-caret-down');
+let close_project = document.getElementsByClassName('project-card__close')
+let projec_card = document.getElementsByClassName('project-card');
+let cards_btn = document.getElementsByClassName('cards__btn')
+let sheet = document.querySelector('.sheet')
 
-
-for (let i = 0; i < btn_show.length; i++)
+// close project card
+for (let i = 0; i < close_project.length; i++)
 {
-  btn_show[i].addEventListener('click', () => {
-    document.getElementById(i + 1).style.display = 'inline';
-    btn_hide[i].style.display = 'inline';
-    btn_show[i].style.display = 'none';
-    git_btn[i].style.display = 'inline';
-  });
-  btn_hide[i].addEventListener('click', () => {
-    document.getElementById(i + 1).style.display = 'none';
-    btn_hide[i].style.display = 'none';
-    btn_show[i].style.display = 'inline';
-    git_btn[i].style.display = 'none';
-  });
+  close_project[i].addEventListener('click', () =>
+  {
+    projec_card[i].style.display = 'none';
+    sheet.style.display = 'block';
+  })
+}
+
+for (let i = 0; i < projects_id.length; i++)
+{
+    let project_card_id = document.getElementById(projects_id[i]);
+    cards_btn[i].addEventListener('click', () =>
+    {
+      project_card_id.style.display = 'flex';
+      sheet.style.display = 'none';
+    })
 }
 
 
