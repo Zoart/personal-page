@@ -2,7 +2,8 @@ let item_show = document.getElementsByClassName('item__show');
 let iframe = document.getElementsByClassName('cards_iframe');
 
 const projects_id = ['Notes', 'Calculator', 'How to learn',
-"How to learn (BEM)", "Russian travel", ]
+"How to learn (BEM)", "Russian travel", "Download/crop(PHP)",
+]
 
 let git_btn = document.getElementsByClassName('cards__github');
 
