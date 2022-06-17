@@ -3,6 +3,7 @@ let iframe = document.getElementsByClassName('cards_iframe');
 
 const projects_id = ['Notes', 'Calculator', 'How to learn',
 "How to learn (BEM)", "Russian travel", "Download/crop(PHP)",
+'Travel journal(React)',
 ]
 
 let git_btn = document.getElementsByClassName('cards__github');
